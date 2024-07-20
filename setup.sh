@@ -4,7 +4,7 @@ set -xe
 
 chmod +x personal.sh
 
-apt install -y htop wget
+apt install -y htop wget unzip
 apt install -y i3
 apt install -y build-essential gdb
 apt install -y tmux rxvt-unicode
