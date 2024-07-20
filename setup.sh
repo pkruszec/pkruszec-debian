@@ -14,7 +14,7 @@ apt install -y libx11-dev libfreetype-dev
 ./personal.sh
 
 chmod 644 Iosevka/*.ttf
-mv Iosevka/*.ttf /usr/local/share/fonts/
+cp Iosevka/*.ttf /usr/local/share/fonts/
 
 git clone https://github.com/nakst/gf
 pushd gf
