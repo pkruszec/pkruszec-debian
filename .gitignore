@@ -45,7 +45,7 @@
 /kruchy.net
 
 /.wget-hsts
-/.X*
-/.x*
+/.Xauthority
+/.xsession-errors
 
 /.gnupg
