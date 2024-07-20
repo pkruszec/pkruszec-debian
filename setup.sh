@@ -6,6 +6,7 @@ chmod +x startup.sh
 chmod +x user.sh
 
 apt install i3
+apt install build-essential
 
 ./personal.sh
 ./user.sh
