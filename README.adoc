@@ -1,0 +1,5 @@
+= pkruszec-debian
+:revdate: 2024-07-20
+
+Personal Debian setup scripts.
+
