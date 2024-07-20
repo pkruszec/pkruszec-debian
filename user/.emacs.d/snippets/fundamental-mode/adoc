@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: adoc
+# key: adoc
+# --
+[#${5:`(file-name-nondirectory (file-name-sans-extension (buffer-file-name)))`}]
+= $1
+:revdate: ${2:`(format-time-string "%Y-%m-%d")`}
+:author: ${3:Paweł Kruszec}
+:email: ${4:pakruszec@gmail.com}
