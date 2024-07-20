@@ -1,6 +1,9 @@
 #!/bin/sh
 set -xe
 
-git config --global user.email "pakruszec@gmail.com"
-git config --global user.name "Paweł Kruszec"
+name="Paweł Kruszec"
+username="pkruszec"
+email="pakruszec@gmail.com"
 
+git config --global user.name $name
+git config --global user.email $email 

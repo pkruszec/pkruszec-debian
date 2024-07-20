@@ -3,3 +3,29 @@
 
 Personal Debian dotfiles and scripts.
 
+== Prerequisites
+* link:https://www.debian.org/download[Debian 12]
+* Debian desktop environment
+* link:https://git-scm.com/[Git]
+
+== Quickstart
+
+The `personal.sh` file contains stuff related to my name, username, e-mail address etc..
+If you want to use this configuration, change it there.
+
+[source, sh]
+----
+# In your user home directory:
+git init
+git remote add origin https://github.com/poiu530/pkruszec-debian
+git fetch
+git checkout origin/main
+sudo ./setup.sh
+----
+
+== Contents (installed by `setup.sh`)
+
+* link:https://i3wm.org/[i3 window manager]
+* link:https://www.gnu.org/software/emacs/[Emacs]
+* link:https://packages.debian.org/pl/sid/build-essential[build-essential (gcc, gdb, make, etc.)]
+* link:https://github.com/be5invis/Iosevka[Iosevka]
