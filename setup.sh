@@ -3,9 +3,9 @@ set -xe
 
 chmod +x personal.sh
 chmod +x startup.sh
-
-./personal.sh
+chmod +x user.sh
 
 apt install i3
 
-cp user/.profile ~/.profile
+./personal.sh
+./user.sh
