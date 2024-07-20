@@ -3,7 +3,6 @@
 set -xe
 
 chmod +x personal.sh
-chmod +x startup.sh
 
 apt install i3
 apt install build-essential
