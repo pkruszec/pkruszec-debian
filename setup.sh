@@ -4,10 +4,10 @@ set -xe
 
 chmod +x personal.sh
 
+apt install -y htop wget
 apt install -y i3
 apt install -y build-essential gdb
 apt install -y tmux rxvt-unicode
-apt install -y htop
 # Libraries needed to build gf
 apt install -y libx11-dev libfreetype-dev
 
