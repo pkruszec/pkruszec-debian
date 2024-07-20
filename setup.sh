@@ -4,8 +4,10 @@ set -xe
 
 chmod +x personal.sh
 
-apt install i3
-apt install build-essential
+apt install -y i3
+apt install -y build-essential
+apt install -y tmux
+apt install -y htop
 
 ./personal.sh
 
