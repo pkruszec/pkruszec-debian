@@ -21,5 +21,3 @@ pushd gf
 ./build.sh
 cp ./gf2 /usr/bin/gf2
 popd
-
-xrdb ~/.Xresources
