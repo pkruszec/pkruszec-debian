@@ -29,6 +29,11 @@
 
 (ido-mode t)
 
+(add-to-list 'auto-mode-alist '("\\.c\\'" . simpc-mode))
+(add-to-list 'auto-mode-alist '("\\.h\\'" . simpc-mode))
+(add-to-list 'auto-mode-alist '("\\.cpp\\'" . simpc-mode))
+(add-to-list 'auto-mode-alist '("\\.hpp\\'" . simpc-mode))
+
 ;; smex
 (require 'smex)
 (smex-initialize)
