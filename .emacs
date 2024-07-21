@@ -37,6 +37,10 @@
 (setq-default c-basic-offset 4)
 (setq c-default-style "stroustrup")
 
+(setq-default indent-tabs-mode nil
+              tab-stop-list    ()
+              tab-width        4)
+
 ;; Other stuff
 (setq scroll-conservatively most-positive-fixnum)
 (setq ring-bell-function 'ignore)
