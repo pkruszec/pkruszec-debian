@@ -4,12 +4,12 @@ set -xe
 
 chmod +x personal.sh
 
-apt install -y htop wget unzip
-apt install -y i3
-apt install -y build-essential gdb
-apt install -y tmux rxvt-unicode
+apt-get install -y htop wget unzip
+apt-get install -y i3
+apt-get install -y build-essential gdb
+apt-get install -y tmux rxvt-unicode
 # Libraries needed to build gf
-apt install -y libx11-dev libfreetype-dev
+apt-get install -y libx11-dev libfreetype-dev
 
 ./personal.sh
 
