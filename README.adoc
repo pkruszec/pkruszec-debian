@@ -23,6 +23,8 @@ git checkout -f origin/main
 sudo ./setup.sh
 ----
 
+After that, you'll need to reboot.
+
 == Contents (installed by `setup.sh`)
 
 * link:https://i3wm.org/[i3 window manager]
