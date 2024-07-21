@@ -17,7 +17,7 @@ chmod 644 Iosevka/*.ttf
 cp Iosevka/*.ttf /usr/local/share/fonts/
 
 git clone https://github.com/nakst/gf
-pushd gf
+cd gf
 ./build.sh
 cp ./gf2 /usr/bin/gf2
-popd
+cd ..
